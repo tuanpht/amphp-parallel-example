@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  php71:
+    build:
+      context: ./dev/docker/php71
+    working_dir: /code
+    tty: true
+    volumes:
+      - ./:/code

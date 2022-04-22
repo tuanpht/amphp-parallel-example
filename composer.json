@@ -1,0 +1,11 @@
+{
+    "name": "t/amphp-parallel-example",
+    "require": {
+        "amphp/parallel": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
